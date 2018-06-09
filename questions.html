@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<head>
+    <title>Vivian's Trivia Game</title>
+    <meta charset="utf-8" />
+    <link rel="icon" href="images/logo.webp">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Lobster" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <section class="jumbotron">
+        <div class="container">
+            <div class="row text-center" id="q1">
+                <h1>Question 1</h1>
+                <h2 class="question">How many teeth does an aardvark have?</h2>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary">16</button>
+                </div>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary">8</button>
+                </div>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary">12</button>
+                </div>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary" id="correct">0</button>
+                </div>
+            </div>
+            <div class="row text-center" id="q2">
+                <h1>Question 2</h1>
+                <h2 class="question">Which sea creature has three hearts?</h2>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary" id="correct">Octopus</button>
+                </div>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary">Shark</button>
+                </div>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary">Dolphin</button>
+                </div>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary">Whale</button>
+                </div>
+            </div>
+            <div class="row text-center" id="q3">
+                <h1>Question 3</h1>
+                <h2 class="question">What is the national flower of Wales?</h2>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary">Daisy</button>
+                </div>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary">Sunflower</button>
+                </div>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary" id="correct">Daffodil</button>
+                </div>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary">Carnation</button>
+                </div>
+            </div>
+            <div class="row text-center" id="q4">
+                <h1>Question 4</h1>
+                <h2 class="question">What is Ailurophobia the fear of?</h2>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary">Spiders</button>
+                </div>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary" id="correct">Cats</button>
+                </div>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary">Heights</button>
+                </div>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary">Clowns</button>
+                </div>
+            </div>
+            <div class="row text-center" id="q5">
+                <h1>Question 5</h1>
+                <h2 class="question">How many letters are in the Hawaiian alphabet?</h2>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary" id="correct">12</button>
+                </div>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary">26</button>
+                </div>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary">15</button>
+                </div>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary">18</button>
+                </div>
+            </div>
+            <div class="row text-center" id="q6">
+                <h1>Question 6</h1>
+                <h2 class="question">In what year did Walt Disney World open near Orlando, Forida?</h2>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary">1980</button>
+                </div>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary">1950</button>
+                </div>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary" id="correct">1971</button>
+                </div>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary">1962</button>
+                </div>
+            </div>
+            <div class="row text-center" id="q7">
+                <h1>Question 7</h1>
+                <h2 class="question">A newton is a unit of what?</h2>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary">Acceleration</button>
+                </div>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary">Mass</button>
+                </div>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary">Momentum</button>
+                </div>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary" id="correct">Force</button>
+                </div>
+            </div>
+            <div class="row text-center" id="q8">
+                <h1>Question 8</h1>
+                <h2 class="question">Which president created the Secret Service?</h2>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary">John Adams</button>
+                </div>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary">Theodore Roosevelt</button>
+                </div>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary" id="correct">Abraham Lincoln</button>
+                </div>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary">Bill Clinton</button>
+                </div>
+            </div>
+            <div class="row text-center" id="q9">
+                <h1>Question 9</h1>
+                <h2 class="question">What was Queen Victoria's first name?</h2>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary" id="correct">Alexandrina</button>
+                </div>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary">Elizabeth</button>
+                </div>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary">Mary</button>
+                </div>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary">Katherine</button>
+                </div>
+            </div>
+            <div class="row text-center" id="q10">
+                <h1>Question 10</h1>
+                <h2 class="question">Which is the only body cell with no nucleus?</h2>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary">Neuron</button>
+                </div>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary" id="correct">Red Blood Cell</button>
+                </div>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary">Liver Cell</button>
+                </div>
+                <div class="row text-center">
+                    <button type="button" class="btn btn-primary">Skin Cell</button>
+                </div>
+            </div>
+            <div class="row text-center" id="done">
+                <h1>Good Job!</h1>
+            </div>
+            <div class="row text-center" id="correctAns">
+                <h2>Correct!</h2>
+            </div>
+            <div class="row text-center" id="wrongAns">
+                <h2>Incorrect</h2>
+            </div>
+        </div>
+        <div class="text-center">
+            <h3 id="scoreNum">Score: 0</h3>
+        </div>
+    </section>
+</body>
