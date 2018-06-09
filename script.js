@@ -35,6 +35,7 @@ function change()
     if(question==11)
     {
         $("#done").show();
+        $("#again").show();
         $("#wrongAns").hide();
         $("#correctAns").hide();
     }
@@ -44,6 +45,7 @@ function hideQuestions()
 {
     $("#wrongAns").hide();
     $("#correctAns").hide();
+    $("#again").hide();
     $("#done").hide();
     $("#q2").hide();
     $("#q3").hide();
